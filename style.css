@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    padding: 10px;
+    border: 3px solid black;
+}
+#nav1{
+    display: flex;
+    width: 78%;
+    height: 100%;
+    border: 3px solid black;
+    justify-content: space-around;
+    align-items: center;
+}
+#nav2{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    border: 3px solid black;
+}
+#nawigacja{
+    justify-content: space-between;
+    height: 20%;
+    width: 100%;
+    display: flex;
+}
+#nav1 > #p0, #p1, #p2, #p3{
+    width: 18%;
+    height: 80%;
+    background-color: #0B8673;
+    align-items: center;
+    justify-content: center;
+}
+#nav1 > img{
+    height: 100%;
+    width: 12%;
+}
