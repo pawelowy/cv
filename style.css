@@ -11,6 +11,7 @@ body{
     height: 100vh;
     padding: 10px;
     border: 3px solid black;
+    flex-direction: column;
 }
 #nav1{
     display: flex;
@@ -25,6 +26,10 @@ body{
     width: 20%;
     height: 100%;
     border: 3px solid black;
+    font-family: "Nunito";
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 #nawigacja{
     justify-content: space-between;
@@ -38,8 +43,54 @@ body{
     background-color: #0B8673;
     align-items: center;
     justify-content: center;
+    color: white;
+    display: flex;
+    font-family: "Nunito";
+    font-size: 20px;
 }
 #nav1 > img{
     height: 100%;
     width: 12%;
+}
+#aside{
+    height: 70%;
+    width: 20%;
+    border: 3px solid black;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#main1{
+    height: 85%;
+    width: 78%;
+    border: 3px solid black;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#main > img{
+    height: 250px;
+    width: 250px;
+}
+#siema > h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+#siema{
+    font-family: "Nunito";
+    font-weight: bolder;
+}
+#kontakt{
+    display: flex;
+    flex-direction: column;
+    font-family: "Nunito";
+}
+#main2{
+    
 }
