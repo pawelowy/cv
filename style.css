@@ -66,13 +66,18 @@ main{
     flex-direction: row;
 }
 #main1{
-    height: 85%;
+    height: 95%;
     width: 78%;
     border: 3px solid black;
     margin-top: 10px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+#nav2 > img {
+    height: 120px;
+    width: 120px;
 }
 #main > img{
     height: 250px;
@@ -85,12 +90,61 @@ main{
 #siema{
     font-family: "Nunito";
     font-weight: bolder;
+    margin-left: 30px;
+    width: 900px;
 }
 #kontakt{
     display: flex;
     flex-direction: column;
     font-family: "Nunito";
 }
-#main2{
-    
+#kontakt > h3 > img{
+    width: 30px;
+    height: 30px;
+}
+#dolmain{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 100%;
+    margin-top: 30px;
+}
+#elo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#exp{
+    display: flex;
+    height: 90%;
+    width: 40%;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#exp > #gora{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    text-align: center;
+    border: 3px solid black;
+}
+#exp > #gora > h3{
+    font-family: "Nunito";
+    width: 100%;
+    align-self: center;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+#exp > #dol{
+    height: 80%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#stack{
+    list-style-type: "-";
+    padding: 15px;
 }
